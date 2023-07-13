@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Make Scrolling</title>
+        <link rel="icon" href="./boat6.png">
+        <link rel="stylesheet" href="Scroll.CSS">
+        <meta name="keywords" content="Scroll, Making">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Description" content="Best Scrolling for You">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h2><a href="#" class="Logo">Omar</a></h2>
+            <ul>
+                <li><a href="#" class="Activate">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+        <section class="Main">
+            <img src="./stars1.png" alt="" id="Star">
+            <h2 class="Name">OMAR</h2>
+            <img src="./moon2.png" alt="" id="Moon">
+            <img src="./mountains4.png" alt="" id="Mountain4">
+            <img src="./river5.png" alt="" id="River5">
+            <img src="./boat6.png" alt="" id="Boat6">
+            <img src="./mountains7.png" alt="" id="Mountains">
+        </section>
+        <div class="Div">
+            <h2 class="H1">Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sunt molestiae, enim repellendus doloremque minus maxime alias laudantium incidunt blanditiis quos libero voluptatum dignissimos eveniet quasi cumque dolorum magnam eaque ad? Pariatur ea sit dicta, cumque rerum odio, veritatis nostrum voluptatem voluptatum dolor, error illum similique aperiam ratione. Soluta nam dolor sint molestiae, quisquam ipsum ipsam libero numquam voluptate suscipit ea consectetur delectus praesentium corrupti hic magnam deserunt velit quis iusto quae laborum incidunt dolorem fugit quidem? Amet dicta ut autem repellendus, porro quo. A, quia, ratione quos commodi aspernatur vero eveniet perferendis neque perspiciatis id eos ducimus ipsum impedit?</p><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sunt molestiae, enim repellendus doloremque minus maxime alias laudantium incidunt blanditiis quos libero voluptatum dignissimos eveniet quasi cumque dolorum magnam eaque ad? Pariatur ea sit dicta, cumque rerum odio, veritatis nostrum voluptatem voluptatum dolor, error illum similique aperiam ratione. Soluta nam dolor sint molestiae, quisquam ipsum ipsam libero numquam voluptate suscipit ea consectetur delectus praesentium corrupti hic magnam deserunt velit quis iusto quae laborum incidunt dolorem fugit quidem? Amet dicta ut autem repellendus, porro quo. A, quia, ratione quos commodi aspernatur vero eveniet perferendis neque perspiciatis id eos ducimus ipsum impedit?</p><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sunt molestiae, enim repellendus doloremque minus maxime alias laudantium incidunt blanditiis quos libero voluptatum dignissimos eveniet quasi cumque dolorum magnam eaque ad? Pariatur ea sit dicta, cumque rerum odio, veritatis nostrum voluptatem voluptatum dolor, error illum similique aperiam ratione. Soluta nam dolor sint molestiae, quisquam ipsum ipsam libero numquam voluptate suscipit ea consectetur delectus praesentium corrupti hic magnam deserunt velit quis iusto quae laborum incidunt dolorem fugit quidem? Amet dicta ut autem repellendus, porro quo. A, quia, ratione quos commodi aspernatur vero eveniet perferendis neque perspiciatis id eos ducimus ipsum impedit?</p><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sunt molestiae, enim repellendus doloremque minus maxime alias laudantium incidunt blanditiis quos libero voluptatum dignissimos eveniet quasi cumque dolorum magnam eaque ad? Pariatur ea sit dicta, cumque rerum odio, veritatis nostrum voluptatem voluptatum dolor, error illum similique aperiam ratione. Soluta nam dolor sint molestiae, quisquam ipsum ipsam libero numquam voluptate suscipit ea consectetur delectus praesentium corrupti hic magnam deserunt velit quis iusto quae laborum incidunt dolorem fugit quidem? Amet dicta ut autem repellendus, porro quo. A, quia, ratione quos commodi aspernatur vero eveniet perferendis neque perspiciatis id eos ducimus ipsum impedit?</p><br>
+        </div>
+        <button id="Hello">UP</button>
+        <script>
+            let BTN = document.getElementById("Hello");
+            window.onscroll = function ()
+            {
+            if (window.scrollY >= 600)
+            {
+                BTN.style.display = "block";
+            }
+            else
+            {
+                BTN.style.display = "none";
+            }
+            }
+            BTN.onclick = function ()
+            {
+                window.scrollTo
+                (
+                    {
+                        left: 0,
+                        top: 0,
+                        behavior: "smooth",
+                    }
+                )
+            }
+        </script>
+        <script src="Scroll.JS"></script>
+    </body>
+</html>
